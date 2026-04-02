@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Mã Hóa - Le Quang Kiet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .hero { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 40px 0; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .card { transition: all 0.3s ease; border: none; border-radius: 15px; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+        .icon-box { font-size: 2rem; margin-bottom: 15px; color: #2a5298; }
+        a { text-decoration: none; color: inherit; }
+    </style>
+</head>
+<body>
+    <div class="hero text-center">
+        <h1>LAB 02: CRYPTOGRAPHY API</h1>
+        <p>Sinh viên: Lê Quang Kiệt | MSSV: 2380614687</p>
+    </div>
+
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4"><a href="caesar.html"><div class="card text-center p-4"><h3>Caesar</h3><p class="text-muted">Dịch chuyển ký tự</p></div></a></div>
+            <div class="col-md-4"><a href="vigenere.html"><div class="card text-center p-4"><h3>Vigenere</h3><p class="text-muted">Mã hóa đa vần (Key chuỗi)</p></div></a></div>
+            <div class="col-md-4"><a href="playfair.html"><div class="card text-center p-4"><h3>Playfair</h3><p class="text-muted">Ma trận 5x5</p></div></a></div>
+            <div class="col-md-4"><a href="railfence.html"><div class="card text-center p-4"><h3>Rail Fence</h3><p class="text-muted">Mã hóa rào chắn (Zigzag)</p></div></a></div>
+            <div class="col-md-4"><a href="transiposition.html"><div class="card text-center p-4"><h3>Transposition</h3><p class="text-muted">Mã hóa hoán vị cột</p></div></a></div>
+        </div>
+    </div>
+</body>
+</html>
